@@ -33,15 +33,3 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
   }
 });
-
-var mainVideo = $('.main-video');
-var player = new Vimeo.Player(mainVideo);
-
-player.on('ended', function() {
-    mainVideo.fadeOut()
-    $('.fade-in').fadeIn();
-});
-
-// setTimeout(function(){
-//     $('.fade-in').fadeIn()
-// }, 5000);
