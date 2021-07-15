@@ -356,7 +356,7 @@ body {
   padding-left: 50px;
 }
 
-#main-photo {
+#main-photo, #main-photo-alt {
   width: 100%;
 }
 
@@ -529,6 +529,10 @@ figure:nth-child(6) {
   margin-top: 20px;
 }
 
+#main-photo-alt {
+  display: none;
+}
+
 @media (max-width: 768px) {
   #mobile-headline {
     display: block;
@@ -566,6 +570,12 @@ figure:nth-child(6) {
   }
   #right-split {
     width: 100%;
+  }
+  #main-photo {
+    display: none;
+  }
+  #main-photo-alt {
+    display: initial;
   }
 
   .marg-para {
