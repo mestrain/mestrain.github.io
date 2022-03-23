@@ -383,13 +383,13 @@ body {
 .btn-width {
   width: 340px;
   margin: 5px;
-  color: #AD161D;
-  border-color: #AD161D;
+  color: #235650;
+  border-color: #235650;
 }
 
 .btn-width:hover {
-  background-color: #AD161D;
-  border-color: #AD161D;
+  background-color: #235650;
+  border-color: #235650;
   color: white;
 }
 
@@ -439,7 +439,7 @@ body {
 }
 
 .bio-para {
-  border-left: 2px solid #AD161D;
+  border-left: 2px solid #235650;
   margin-bottom: 0px;
   margin-left: 14px;
   padding-left: 18px;
