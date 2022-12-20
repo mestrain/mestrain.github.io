@@ -275,7 +275,7 @@ ul.banner-social-buttons {
     padding: 0;
   }
   .main-video {
-    padding-top: initial !important;
+    padding: 20px 0px 40px;
   }
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
@@ -344,16 +344,21 @@ body {
 }
 
 .actor-left, .actor-right {
-  width: 49.8%;
   display: inline-block;
 }
 
+.pl {
+  padding-right: 40px;
+}
+
 .actor-left {
-  vertical-align: top;
+  width: 57%;
 }
 
 .actor-right {
-  padding-left: 50px;
+  vertical-align: top;
+  width: 42%;
+  padding-right: 50px;
 }
 
 #main-photo, #main-photo-alt {
@@ -564,6 +569,9 @@ figure:nth-child(6) {
   .red-split{
     width: 90%;
     margin-top: -30px;
+  }
+  .pl {
+    padding-right: 0px;
   }
   #left-split {
     display: none;
